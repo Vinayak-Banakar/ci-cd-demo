@@ -64,7 +64,7 @@ pipeline {
         }
 
         stage('Deploy to Production') {
-            when { branch 'main' }
+            when { expression { return true } }
             steps {
                 input message: "Deploy build ${DOCKER_TAG} to production?"
                 sh """
