@@ -55,7 +55,7 @@ Every `git push` to `main` automatically:
 
 ## Live Endpoints (AWS EC2)
 
-- Staging: `http://13.217.88.218:3001/health`
-- Production: `http://13.217.88.218:3000/health`
+- Staging: `http://44.195.182.36:3001/health`
+- Production: `http://44.195.182.36:3000/health`
 # CI/CD Demo
 # trigger build
