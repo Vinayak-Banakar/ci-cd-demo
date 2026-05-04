@@ -1,4 +1,4 @@
-# Stage 1: test
+# Stage 1: build stage
 FROM node:20-alpine AS tester
 WORKDIR /app
 COPY package*.json ./
